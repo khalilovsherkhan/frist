@@ -1,0 +1,28 @@
+.content {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    background: transparent;
+    border: px solid #3c3c3c;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 111px;
+    font-family: sens-serif;
+    color: #fff000;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #fff000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+@keyframes animate{
+    0%  {
+        transform: rotate(0deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
